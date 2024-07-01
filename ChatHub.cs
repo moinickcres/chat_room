@@ -15,7 +15,7 @@ namespace ChatRoom
         {
             await Groups.AddToGroupAsync(Context.ConnectionId, room);
 
-            await Clients.Group(room).SendAsync("ShowWho", $"Alguien se conectó {Context.ConnectionId}");
+            //await Clients.Group(room).SendAsync("ShowWho", $"Alguien se conectó {Context.ConnectionId}");
         }
     }
 }
