@@ -1,10 +1,23 @@
-# Chat_room
+# Chat Room User Manual
 
-## Manual de usuario del Chat Room
+## Introduction
+Upon entering the application, you are greeted with a welcome screen.
 
-### Al entrar en la aplicacion lo primero que se ve es la bienvenida a la aplicación. 
+## Navigation Menu
+The top menu displays:
+- The application name.
+- A "Chat Rooms" section to access the different chat rooms.
+- A "Home" button to return to the main menu.
+- A "Privacy" section.
 
-### En el menú que aparece arriba se indica el nombre de la aplicación, las salas de chat con el nombre "Chat Rooms", el home para volver al menú principal y la sección Privacy.
+## Chat Rooms
+1. In the "Chat Rooms" section, you can join one of the available chat rooms: **Beers**, **Programming**, or **Fashion**.
+   - For example, entering the **Beers** room will allow you to:
+     - See your username and a text box to type messages.
+     - Send a message by clicking the "Send" button.
+     - Your username will remain saved, and the text box will clear for the next message.
+     - Open multiple chat room windows to allow new users to join.
 
-### Al entrar en la sección Chat Rooms entraremos en las diferentes salas disponibles: cervezas, programación, y moda. Sin entramos por ejemplo en la sección de cervezas, entraremos en una sala en la que se indica el nombre del usuario, y el mensaje que se quiera enviar. Al enviar el mensaje clickando en el botón Send, se quedará guardado el nombre del usuario en la caja de texto, y en la de texto se borrará para escribir el nuevo mensaje. Se pueden abrir varias ventanas de la sala de chat para que entre un nuevo usuario.
-### Cuando entra un nuevo usuario a la misma sala, el nuevo usuario no vera los mensajes anteriormente escritos, pero si vera los nuevos que se vayan escribiendo. Lo mismo para los usuarios que ya estaban conectados a esa sala antes. 
+2. Behavior with New Users:
+   - When a new user joins the same room, they will not see previously sent messages but will see any new ones.
+   - Similarly, users already in the room will only see new messages sent after the new user joins.
